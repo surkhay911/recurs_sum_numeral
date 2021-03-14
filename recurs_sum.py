@@ -6,4 +6,5 @@ def sum(x):
     else:
         return y
 
-print(sum(123456789))
+x = int(input("введите число = "))
+print(sum(x))
